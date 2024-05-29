@@ -240,6 +240,21 @@ h1, h2, h3, p {
     margin-bottom: 8px;
 }
 
+.soc-net-list {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.soc-net-list .item {
+    padding: 12px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+}
+
 .paragraph {
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -266,6 +281,9 @@ footer {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;  
     width: calc((100% - 72px) / 4);
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
 }
 
 
@@ -303,6 +321,12 @@ footer {
     width: calc((100% - 48px) / 3);
     border-width: 0 1px 1px 1px;
     padding-left: 0;
+}
+
+.section-four-list-item:hover {
+    box-shadow: 0px 2px 1px 0px #2E2F4214;
+    box-shadow: 0px 1px 1px 0px #2E2F4229;
+    box-shadow: 0px 1px 6px 0px #2E2F4214;
 }
 
 .section-four-list-item-text {
