@@ -11,6 +11,7 @@ img{
 
 a {
     text-decoration: none;
+    margin-bottom: 0;
 }
 
 ul {
@@ -84,7 +85,21 @@ body {
     display: block;
     padding: 24px 0;
 }
+.nav-list-item {
+    position: relative;
+}
 
+
+.active-page::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404BBF;
+    position: absolute;
+    bottom: 0;
+}
 
 .nav-list:hover,
 .nav-list:focus {
@@ -93,7 +108,7 @@ body {
 
 .address-list {
     list-style-type: none;
-    display: flex;
+    display: block;
     gap: 40px;
     align-items: center;
     margin-right: 40px;
@@ -255,6 +270,8 @@ h1, h2, h3, p {
     border-radius: 50%;
 }
 
+
+
 .paragraph {
     font-size: 16px;
     letter-spacing: 0.02em;
@@ -281,9 +298,7 @@ footer {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;  
     width: calc((100% - 72px) / 4);
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
+    box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
 }
 
 
@@ -324,9 +339,7 @@ footer {
 }
 
 .section-four-list-item:hover {
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
+    box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
 }
 
 .section-four-list-item-text {
@@ -361,4 +374,16 @@ footer {
     margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
+}
+
+.footer-el-one {
+    width: 264px;
+    
+}
+
+
+
+.footer-elements {
+    display: flex;
+    gap: 120px;
 }
