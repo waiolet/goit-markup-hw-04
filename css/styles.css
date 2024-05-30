@@ -284,7 +284,8 @@ h1, h2, h3, p {
 }
 
 .media-link {
-    padding: 10.4px 12px;
+    
+    width: 40px;
     height: 40px;
     background-color: #4D5AE5;
     border-radius: 50%;
