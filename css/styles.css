@@ -284,11 +284,13 @@ h1, h2, h3, p {
 }
 
 .media-link {
-    padding: 12px;
+    padding: 11.4px 12px;
     background-color: #4D5AE5;
     border-radius: 50%;
     
 }
+
+
 
 
 .paragraph {
