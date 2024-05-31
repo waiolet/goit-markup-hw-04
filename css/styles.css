@@ -38,12 +38,13 @@ body {
     width: 100%;
 }
 
-.container-header {
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+                0px 1px 1px rgba(46, 47, 66, 0.16), 
+                0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo {
@@ -64,8 +65,6 @@ body {
 .nav-menu {
     display: flex;
     align-items: center;
-    position: relative;
-    color: #404bbf;
 }
 
 .nav-list {
@@ -95,6 +94,11 @@ body {
 
 .nav-list-item {
     position: relative;
+}
+
+.nav-item.active-page {
+    position: relative;
+    color: #404bbf;
 }
 
 
@@ -379,7 +383,7 @@ footer {
     padding-left: 0;
 }
 
-.section-four-list-item: {
+.section-four-list-item {
     width: calc((100% - 48px) / 3);
     border-width: 0 1px 1px 1px;
     padding-left: 0;
@@ -387,7 +391,9 @@ footer {
 }
 
 .section-four-list-item:hover {
-    box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
+    box-shadow: 0px 2px 1px 0px #2E2F4214, 
+                0px 1px 1px 0px #2E2F4229, 
+                0px 1px 6px 0px #2E2F4214;
 }
 
 .section-four-list-item-text {
